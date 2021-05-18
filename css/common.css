@@ -1,0 +1,22 @@
+Html, body{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+p{
+    color:#555;
+}
+h4{
+    color:#555;
+    font-weight: normal;
+}
+.rating >.fa{
+    color:#ff523b;
+}

@@ -1,0 +1,65 @@
+.contact-us{
+    width: 98vw;
+    height: 60vh;
+    background-image: url(../images/wp2089570.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: auto;
+
+
+}
+.contact-us>.contact-us-heading{
+    width: 100%;
+    height:100%;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+.contact-us-heading>div{
+    font-size: 5vw;
+    font-weight: 500;
+}
+.contact-detail{
+    max-width: 1080px;
+    min-height: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.contact-detail>.col2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: grey;
+    padding: 5px 10px;
+}
+.contact-detail>.col2>div{
+    width: 70px;
+    height: 70px;
+    margin: 10px 20px;
+    font-size: 50px;
+    box-shadow: 0 0 30px 0 #777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform .4s;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.contact-detail>.col2>div:hover{
+    transform: translateY(-10px);
+}
+
+    
+
+

@@ -1,0 +1,103 @@
+.account-info{
+    width: 1080px;
+    display: flex;
+    margin: auto;
+    padding: 50px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.account-info>.info-col-2{
+    min-width: 400px;
+    flex-basis: 45%;
+    margin: 10px 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.account-info>.info-col-2>img{
+    width: 100%;
+}
+
+.account-info>.info-col-2>.form-container{
+    width: 300px;
+    height: 400px;
+    background: #fff;
+    position: relative;
+    text-align: center;
+    padding: 20px 0;
+    margin: auto;
+    box-shadow:  0 0 20px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.form-container span{
+    font-weight: bold;
+    padding: 0 10px;
+    color: #555;
+    cursor: pointer;
+    width: 100px;
+    display: inline-block;
+}
+
+.form-btn{
+    display: inline-block;
+}
+.form-container form{
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top:120px;
+    right: 0px;
+    transition: transform 1s;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    border:  1px solid #ccc;
+}
+
+form .hero-btn{
+    width:100%;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+form .hero-btn:focus{
+    outline: none;
+}
+form input:focus{
+    outline: none;
+}
+form a{
+    text-decoration: none;
+    color: #555;
+    font-weight: 600;
+}
+#LoginForm{
+    left:-300px
+
+}
+#RegForm{
+    left:0px;
+}
+#Indicator{
+    width: 100px;
+    border: none;
+    background: #ff523b;
+    height: 3px;
+    margin:8px ;
+    transform: translateX(100px);
+    transition: transform 1s;
+}
+@media only screen and(max-width:600px){
+    .info-col-2{
+
+        flex-basis: 100%;
+    }
+}
+

@@ -1,0 +1,93 @@
+.about-us{
+    width: 98vw;
+    height: 70vh;
+    display: flex;
+    background-image: url(../images/martin-magnemyr-Xh1JNKQzg2Q-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+    margin: auto;
+}
+.about-us>.about-us-heading{
+    width: 40%;
+    text-align: left;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 90%;
+    margin: 50px;
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-info{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+.about-us-info>.about-us-info-heading{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+.about-us-info>.about-us-info-content{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    color:#777;
+
+}
+
+/** founder**/
+.founder{
+    max-width: 1080px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.founder>.founder-card{
+    width: 200px;
+    height: 300px;
+    padding: 5px;
+    margin: 10px 20px;
+    box-shadow: 0 0 10px 0 #777;
+    filter: grayscale(80%);
+    transition: transform .5s;
+    z-index: 99;
+}
+.founder>.founder-card>img{
+    width: 100%;
+    border-radius: 50%;
+}
+.founder>.founder-card>h3{
+    margin: 0px;
+    text-align: center;
+}
+.founder>.founder-card>p{
+    text-align: center;
+    margin: 0px;
+    font-size: 14px;
+}
+.founder>.founder-card:hover{
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+.founder-connect>i{
+    font-size: 24px;
+    margin: 5px;
+}
+.founder-connect>i> fa-twitter-square{
+    color:aqua;
+}
+
+
+
+
+
+
+
